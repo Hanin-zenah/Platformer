@@ -1,0 +1,47 @@
+{
+  "stickman": {
+    "_stickmanXComment" : "the x position of stickman should be a positive double, it is the initial x position of the stickman",
+    "_stickmanYComment" : "the initial y position of stickman will always be on the current level's floor",
+    "x" : 0.0,
+    "_stickmanSizeComment" : "size of stickman is either normal, or large",
+    "size" : "large"
+  },
+
+  "_cloudComment" : "at least one cloud config should be given, in the game loop, the set of clouds will randomly be re-generated and placed on the game screen after a specified time period",
+  "cloud" : {
+    "_cloudVelocityComment" : "every cloud specified should have a constant velocity, velocity could be negative or positive",
+    "velocity" : [0.045, 0.09, 0.069, 0.11],
+    "height" : [40.0, 75.0, 70.0, 55.0],
+    "width" : [30.0, 75.0, 65.0, 55.0]
+  },
+
+  "level" : {
+    "_levelHeight" : "level dimensions should be positive doubles",
+    "height" : 400.0,
+    "width" : 640.0,
+    "floorHeight" : 300.0
+  },
+  "_platformComment" : "the number of items in the arrays represent the number of platforms to be added",
+  "platform" : {
+    "x" : [150.0, 200.0, 260.0],
+    "y" : [270.0, 240.0, 270.0],
+    "_movementComment" : "platform movement could be either none, vertical, or horizontal",
+    "movement" : ["none", "none", "none"]
+  },
+
+  "_enemyComment" : "enemy's y position is on the level's ground by default",
+  "enemy" : {
+    "x" : [90.0, 300.0],
+    "_enemyVelocityComment" : "positive velocity means the enemy's first movement will be towards the right, and vice vera for negative velocity",
+    "velocity" : [0.4, -0.7],
+    "height" : [10.0, 10.0],
+    "width" : [15.0, 15.0]
+  },
+
+  "_flagComment" : "a flag configuration block should be specified, x and y should be positive doubles",
+  "flag" : {
+    "x" : 521.0,
+    "y" : 280.0
+  }
+
+}
