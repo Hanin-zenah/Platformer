@@ -1,11 +1,11 @@
 # Platformer
 A simple 2D platformer game implemented with JavaFX
 
-# HOW TO RUN PROGRAM 
+## HOW TO RUN PROGRAM 
 The program can be run by entering "gradle build" then "gradle run" in the terminal.
 
 
-# DESCRIPTION OF THE JSON FILE FORMAT 
+## DESCRIPTION OF THE JSON FILE FORMAT 
 
 JSON files for the level configurations can be found in the resources file. Each JSON file should have:
 - the starting x position for stickman, stickman's size 
@@ -24,7 +24,7 @@ heights, and different size. All the arrays should be of the same size
 - grass block configuration (if any): the x position of the grass block. Its y position will be on the floor of the current level
 
 
-## CONFIGURATION FILE NAMES TO LOAD DIFFERENT LEVELS **
+### CONFIGURATION FILE NAMES TO LOAD DIFFERENT LEVELS 
 Different levels configuration files: 
 - "level1.json"
 - "level2.json"
