@@ -1,15 +1,12 @@
 # Platformer
-A simple 2D platformer game implemented with JavaFX
+A simple customisable 2D platformer game implemented with JavaFX
 
 ## HOW TO RUN PROGRAM 
 The program can be run by entering "gradle build" then "gradle run" in the terminal.
 
-
 ## DESCRIPTION OF THE JSON FILE FORMAT 
-
-JSON files for the level configurations can be found in the resources file. Each JSON file should have:
-- the starting x position for stickman, stickman's size 
-
+JSON files for the level configurations can be found in the resources file. Each JSON file should have: \
+- the starting x position for stickman, stickman's size \
 - an array of the different cloud velocities, as well as an array for the different 
 heights, and different size. All the arrays should be of the same size
 
@@ -36,8 +33,8 @@ example:
 
 
 ## CONTROLS 
-Once game loads you can use keys: 
-LEFT ARROW KEY: to move left 
-RIGHT ARROW KEY: to move right 
-UP ARROW KEY: to jump
-SPACE BAR: to shoot (after stickman eats the mushroom)
+Once game loads you can use keys: \
+LEFT ARROW KEY: to move left \
+RIGHT ARROW KEY: to move right \ 
+UP ARROW KEY: to jump \
+SPACE BAR: to shoot (after stickman eats the mushroom).
