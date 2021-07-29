@@ -60,8 +60,6 @@ public class StickmanCollisionStrategy implements EntityCollisionStrategy {
                 }
             }
         }
-
-
         //if entity was enemy, player loses a life and restarts position
         else if(otherEntity instanceof Enemy) {
             self.setLives(self.getLives() - 1);

@@ -223,9 +223,7 @@ public class Stickman extends EntityImpl {
                 this.imgPath = String.format("ch_stand_left%d.png", standingImgNum);
             }
         }
-
     }
-
 
     public void tick() {
         this.counter++; //this counter will keep track of the ticks

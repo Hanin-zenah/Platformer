@@ -24,7 +24,7 @@ heights, and different size. All the arrays should be of the same size
 - grass block configuration (if any): the x position of the grass block. Its y position will be on the floor of the current level
 
 
-## CONFIGURATION FILE NAMES TO LOAD DIFFERENT LEVELS **
+## CONFIGURATION FILE NAMES TO LOAD DIFFERENT LEVELS 
 Different levels configuration files: 
 - "level1.json"
 - "level2.json"
