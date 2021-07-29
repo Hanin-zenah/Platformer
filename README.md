@@ -5,8 +5,8 @@ A simple customisable 2D platformer game implemented with JavaFX
 The program can be run by entering "gradle build" then "gradle run" in the terminal.
 
 ## DESCRIPTION OF THE JSON FILE FORMAT 
-JSON files for the level configurations can be found in the resources file. Each JSON file should have: \
-- the starting x position for stickman, stickman's size \
+JSON files for the level configurations can be found in the resources file. Each JSON file should have: 
+- the starting x position for stickman, stickman's size 
 - an array of the different cloud velocities, as well as an array for the different 
 heights, and different size. All the arrays should be of the same size
 
